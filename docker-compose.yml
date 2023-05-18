@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  angular:
+    container_name: angular-nginx
+    image: angular-nginx
+    ports:
+      - 80:80
